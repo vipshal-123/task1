@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* First Rap */
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 60vh;
+    background:linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 30px;
+}
+
+.div .para{
+    padding-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.div1 .para{
+    color: black;
+    font-weight: 800;
+}
+
+/* Circle */
+
+.div .circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    background:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.div .circle h1{
+    color: white;
+}
+
+.div .circle .circle_para{
+    color: white;
+    font-size: 18px;
+}
+
+/* Circle End */
+
+.div h2{
+    margin-top: 10px;
+    color: white;
+}
+
+.div .para2{
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-size: 18px;
+}
+
+/* Second Rap */
+
+.div1{
+    width: 250px;
+    height: 60vh;
+    background-color: white;
+    box-shadow:#ebf1ff 10px 10px 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.div1 .para{
+    margin-top: 20px;  
+    color:#303b5a;
+    padding: 10px 20px;
+    font-size: 18px;  
+}
+
+.div1 .pararap{
+    padding: 0px 20px;  
+}
+
+.div1 .content{
+    margin-top: 10px;
+}
+
+.content .para1{
+    color: #ff5757;
+    font-weight: 600;
+}
+
+.content > div{
+    background-color: #f5e8e8;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.content button p , .content1 button p{
+    margin-left: 5px;
+}
+
+.content button , .content1 button{
+    border: none;
+    border-radius: 5px;
+}
+
+.div1 .content1{
+    margin-top: 10px;
+}
+
+.content1 .para1{
+    color: #ffb01f;
+    font-weight: 600;
+}
+
+.content1 > div{
+    background-color: #faedd5;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.div1 .para1{
+    padding: 5px;
+}
+
+.div1 .para1 .span1{
+    margin-left: 40px;
+}
+
+.div1 .para1 .span1 .span1_color{
+    color: #303b5a;
+    font-weight: 800;
+}
+
+.div1 .para1 .span1 .span1_light_color{
+    color: gray;
+    font-weight: 500;
+}
+
+.div1 .para1 .span2{
+    margin-left: 46px;
+}
+
+.div1 .para1 .span2 .span2_color{
+    color: #303b5a;
+    font-weight: 800;
+}
+
+.div1 .para1 .span2 .span2_light_color{
+    color: gray;
+    font-weight: 500;
+}
+
+.div1 .para1 .span3{
+    margin-left: 58px;
+}
+
+.div1 .para1 .span3 .span3_color{
+    color: #303b5a;
+    font-weight: 800;
+}
+
+.div1 .para1 .span3 .span3_light_color{
+    color: gray;
+    font-weight: 500;
+}
+
+.div1 .para1 .span4{
+    margin-left: 60px;
+}
+
+.div1 .para1 .span4 .span4_color{
+    color: #303b5a;
+    font-weight: 800;
+}
+
+.div1 .para1 .span4 .span4_light_color{
+    color: gray;
+    font-weight: 500;
+}
+
+.div1 .content2{
+    margin-top: 10px;
+}
+
+.content2 .para1{
+    color:#00bd91;
+    font-weight: 600;
+}
+
+.content2 > div{
+    background-color: #ebf1ff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.content3 .para1{
+    color: #1125d4;
+    font-weight: 600;
+}
+
+.content3 > div{
+    background-color: #d9ddfc;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.content4{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.div1 .span img{
+    margin-top: 3px;
+    vertical-align: bottom;
+}
+
+.div1 .span1 img{
+    vertical-align: middle;   
+}
+
+/* Button Styles */
+
+.div1 button{
+    width: 170px;
+}
+
+.content4 button{
+    border: none;
+    border-radius: 5px;
+    background-color: #303b5a;
+    color: white;
+}
+
+.content4 .btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+}
+
+.content4 .btn:hover{
+    background:linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
